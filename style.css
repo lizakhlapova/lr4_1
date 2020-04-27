@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: sans-serif;
+}
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.flexbox {
+    display: flex;
+    margin-bottom: 1em;
+    border: 2px solid black;
+}
+
+.box {
+    width: 25%;
+    border: 2px solid black;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.center {
+    justify-content: center;
+}
+
+.right {
+    justify-content: flex-end;
+}
